@@ -1,0 +1,25 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Electron and Python - based calculator ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/poly-singh/electron-python",
+  "keywords": [
+    "Electron",
+    "Python",
+    "zerorpc",
+    "demo"
+  ],
+  "author": "poly-singh",
+  "license": "MIT",
+  "dependencies": {
+    "zerorpc": "git+https://github.com/0rpc/zerorpc-node.git"
+  },
+  "devDependencies": {
+    "electron": "^1.7.6",
+    "electron-packager": "^9.0.1"
+  }
+}
