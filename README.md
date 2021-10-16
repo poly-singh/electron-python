@@ -1,5 +1,5 @@
-# electron-python
-This is a basic calculator app to calculate sum of two numbers using Eletron based GUI and using python based backend and connected using Zerorpc.
+# Electron-Python
+This is a basic calculator app to calculate sum of two numbers using Electron based GUI and using python based backend connected using Zerorpc.
 
 ## Setting up the python environment
 
@@ -18,7 +18,7 @@ Configure the package.json
 `````
 
 
-  "name": "pretty-calculator",
+  "name": "calculator",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -35,7 +35,7 @@ Configure the package.json
 
 `````
 
-clean the caches
+Clean the caches
 
 `````
 # On Window PowerShell (not cmd.exe!!!)
@@ -55,7 +55,7 @@ npm install --runtime=electron --target=1.7.6
 ./node_modules/.bin/electron
 
 `````
-To run 
+### To run 
 
 `````
 ./node_modules/.bin/electron . 
@@ -74,7 +74,7 @@ npm install
 
 #### Packaging
 
-Python - Run the following command
+## Python - Run the following command
 
 `````
 pyinstaller pycalc/api.py --distpath pycalcdist
@@ -83,7 +83,6 @@ rm -rf build/
 rm -rf api.spec
 
 `````
-
 It it goes well older should show up, as well as the executable inside that folder. This is the complete independent Python executable that could be moved to somewhere else.
 
 ### Packaging the Electron application (with the python backend)
@@ -95,7 +94,7 @@ Make sure to use using Node 8.2.1
 
 `````
 
-Running into errors after tring to updated the Node version to 8.2.1
+Running into errors after trying to updated the Node version to 8.2.1
 
 
 
