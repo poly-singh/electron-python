@@ -4,12 +4,23 @@ This is a basic calculator app to calculate sum of two numbers using Electron ba
 ## Setting up the python environment
 
 `````
+Go to python.org ,and Download python 3.7.0 -to install python
 pip install zerorpc
 pip install pyinstaller
 # for windows only
 pip install pypiwin32 # for pyinstaller
 
 `````
+## Setting up the Electron and Frontend Environment
+
+````
+Go to repo https://github.com/coreybutler/nvm-windows/releases
+Downlaod nvm-setup.zip and install it
+nvm install 8.2.1 - # install node version 8.2.1
+nvm use 8.2.1
+
+`````
+
 
 ## Node.js /Electron Part
 
@@ -95,6 +106,11 @@ Make sure to use using Node 8.2.1
 `````
 
 After successfully updating the node version 8.2.1 , packaged the application successfully
+
+### Screenshot of the application
+
+![calculator_image](./image/calculator_image.png)
+
 
 
 
