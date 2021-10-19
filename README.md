@@ -94,7 +94,7 @@ Make sure to use using Node 8.2.1
 
 `````
 
-Running into errors after trying to updated the Node version to 8.2.1
+After successfully updating the node version 8.2.1 , packaged the application successfully
 
 
 

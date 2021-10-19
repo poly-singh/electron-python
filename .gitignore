@@ -1,2 +1,7 @@
-/node_modules
+api.spec
+.venv/
+node_modules/
+build/
+dist/
+pycalcdist/
 package-lock.json
